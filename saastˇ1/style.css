@@ -1,0 +1,38 @@
+.header {
+    position:absolute;
+    background-image:phub;
+    height: 100px;
+    width: 161px;
+    border-right: solid white 6px;
+    top:0px;
+    left: 0px;
+}
+
+.joon {
+    position:absolute;
+    background:black;
+    border-top: solid white 3px;
+    border-bottom: solid white 3px  ;
+    height:10px;
+    width: 100%;
+    top:100px;
+    left: 0px;
+}
+
+* {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(199,113,0,1) 36%, rgba(198,149,0,1) 50%, rgba(0,212,255,1) 100%);
+}
+
+.text {
+    position: absolute;
+    background:transparent;
+    top: 27px;
+    left: 1740px;
+    font-size: 40px;
+    text-shadow:
+		-1px -1px 0 #FFFFFF,
+		1px -1px 0 #FFFFFF,
+		-1px 1px 0 #FFFFFF,
+		1px 1px 0 #FFFFFF;
+}
